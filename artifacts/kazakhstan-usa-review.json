@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "seed": 73,
+  "fps": 60,
+  "maxDuration": 30,
+  "simulationMode": "auto",
+  "arena": { "x": 0, "y": 0, "width": 640, "height": 360 },
+  "fighters": [
+    { "id": "KZ", "name": "Казахстан", "countryId": "kz", "radius": 38, "mass": 1, "hp": 5000, "speed": 165, "type": "melee", "attackTemplate": "orbiting_blade" },
+    { "id": "US", "name": "США", "countryId": "us", "radius": 38, "mass": 1, "hp": 5000, "speed": 165, "type": "ranged", "attackTemplate": "shooter" }
+  ],
+  "melee": { "baseDamage": 90, "damageGrowthPerHit": 0, "orbitRadius": 68, "rotationSpeed": 2.4, "weaponRadius": 15 },
+  "ranged": { "baseDamage": 70, "damageGrowthPerHit": 0, "orbitRadius": 54, "rotationSpeed": 2, "weaponRadius": 12, "cooldown": 0.8, "projectileSpeed": 360, "projectileRadius": 8, "initialProjectileCount": 1, "projectileGrowthPerHit": 0, "maxProjectileCount": 1 },
+  "suddenDeath": { "thresholds": [] },
+  "effects": { "particles": true, "trails": true, "glow": true, "hitFlash": true, "cameraShake": false, "criticalEffect": true, "deathSlowMotion": true, "winnerAnimation": true, "damageNumbers": true },
+  "audio": { "musicVolume": 0, "sfxVolume": 0 },
+  "presentation": { "locale": "ru", "showCountryNames": true, "showUltimateNames": true }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "seed": 42,
+  "fps": 60,
+  "maxDuration": 1,
+  "simulationMode": "auto",
+  "arena": { "x": 0, "y": 0, "width": 1080, "height": 1920 },
+  "fighters": [
+    { "id": "A", "name": "Казахстан", "countryId": "kz", "radius": 80, "mass": 1, "hp": 1000, "speed": 220, "type": "melee", "attackTemplate": "orbiting_blade" },
+    { "id": "B", "name": "Япония", "countryId": "jp", "radius": 80, "mass": 1, "hp": 1000, "speed": 220, "type": "melee", "attackTemplate": "orbiting_blade" }
+  ],
+  "melee": { "baseDamage": 20, "damageGrowthPerHit": 2, "orbitRadius": 120, "rotationSpeed": 3, "weaponRadius": 28 },
+  "ranged": { "baseDamage": 15, "damageGrowthPerHit": 1.5, "orbitRadius": 100, "rotationSpeed": 2, "weaponRadius": 24, "cooldown": 0.8, "projectileSpeed": 400, "projectileRadius": 12, "initialProjectileCount": 1, "projectileGrowthPerHit": 1, "maxProjectileCount": 4 },
+  "suddenDeath": { "thresholds": [] },
+  "effects": { "particles": true, "trails": true, "glow": true, "hitFlash": true, "cameraShake": true, "criticalEffect": true, "deathSlowMotion": true, "winnerAnimation": true, "damageNumbers": true },
+  "audio": { "musicVolume": 0, "sfxVolume": 0.7 },
+  "presentation": { "locale": "ru", "showCountryNames": true, "showUltimateNames": true },
+  "tournament": { "id": "r32-m01", "seed": 42, "round": 1, "matchNumber": 1 }
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "seed": 42,
+  "fps": 60,
+  "maxDuration": 30,
+  "simulationMode": "auto",
+  "arena": { "x": 0, "y": 0, "width": 960, "height": 540 },
+  "fighters": [
+    { "id": "A", "name": "Австралия", "countryId": "au", "radius": 46, "mass": 1, "hp": 1000, "speed": 0, "type": "ranged", "attackTemplate": "returning_projectile" },
+    { "id": "B", "name": "Канада", "countryId": "ca", "radius": 46, "mass": 1, "hp": 1000, "speed": 0, "type": "melee", "attackTemplate": "orbiting_blade" }
+  ],
+  "melee": { "baseDamage": 0, "damageGrowthPerHit": 0, "orbitRadius": 72, "rotationSpeed": 2.4, "weaponRadius": 15 },
+  "ranged": { "baseDamage": 0, "damageGrowthPerHit": 0, "orbitRadius": 62, "rotationSpeed": 2, "weaponRadius": 12, "cooldown": 1.3, "projectileSpeed": 280, "projectileRadius": 8, "initialProjectileCount": 1, "projectileGrowthPerHit": 0, "maxProjectileCount": 1 },
+  "suddenDeath": { "thresholds": [] },
+  "effects": { "particles": true, "trails": true, "glow": true, "hitFlash": true, "cameraShake": true, "criticalEffect": true, "deathSlowMotion": true, "winnerAnimation": true, "damageNumbers": true },
+  "audio": { "musicVolume": 0, "sfxVolume": 0 },
+  "presentation": { "locale": "ru", "showCountryNames": true, "showUltimateNames": true }
+}
